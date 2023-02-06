@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 132px;
+    padding: 70px 0 70px 0;
+    margin-bottom: 20px;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+.logo>img {
+    width: 29px;
+    height: 22px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+
+.box-left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 100%;
+}
+
+.box-left-content>a {
+    text-decoration: none;
+    color: var(--color-grey-100);
+    font-weight: 600;
+}
+
+.box-left-content>h2>span {
+    color: var(--color-brand-100);
+}
+
+.box-right {
+    display: flex;
+    width: 578px;
+    height: 440px;
+    border-radius: 0 60px;
+}
+
+.sec-products {
+    max-width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 548px;
+    height: 360px;
+    margin-bottom: 90px;
+}
+
+.box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 172px;
+    background-image: url('../assests/imgPost.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.box-img>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list-posts-news li a {
+    cursor: pointer;
+}
+
+.list-posts-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 360px;
+    margin-top: 45px;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.box-title-post {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.divObserver{
+    height: 0px;
+}

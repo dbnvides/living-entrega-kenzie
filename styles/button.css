@@ -1,0 +1,21 @@
+.btn-default {
+    height: 38px;
+    background: var(--color-grey-700);
+    padding: 0px 22px;
+    border: 1px solid var(--color-grey-700);
+    border-radius: 32px;
+}
+
+.btn-default:hover{
+    background: var(--color-grey-600);
+    cursor: pointer;
+}
+.btn-selected:focus{
+    background: var(--color-brand-100);
+    color: var(--color-grey-700);
+}
+
+.btn-selected:focus:hover{
+    color: var(--color-grey-700);
+    background: var(--color-brand-200);
+}
